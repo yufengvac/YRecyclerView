@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         myAdapter = new MyAdapter();
         iRecyclerView.setIAdapter(myAdapter);
 
+
         iRecyclerView.setOnRefreshListener(new OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 }.start();
             }
         });
+
 
         iRecyclerView.setOnLoadMoreListener(new OnLoadMoreListener() {
             @Override

@@ -29,11 +29,6 @@ import com.aspsine.irecyclerview.interfaces.OnRefreshListener;
 import com.aspsine.irecyclerview.interfaces.RefreshTrigger;
 import com.aspsine.irecyclerview.widget.RecyclerFooterView;
 import com.aspsine.irecyclerview.widget.RecyclerHeaderView;
-
-/**
- * Created by aspsine on 16/3/3.
- *
- */
 public class IRecyclerView extends RecyclerView {
     private static final String TAG = IRecyclerView.class.getSimpleName();
 
